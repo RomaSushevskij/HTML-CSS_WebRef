@@ -1,0 +1,17 @@
+.arrow {
+	color:red;
+	font-size:2em;
+	background:#D4938C;
+	overflow:hidden;
+}
+
+.prew {
+	float:left;
+	
+	background:#DAE986;
+}
+
+.next {
+	float:right;
+	background:#8CA7D4;
+}

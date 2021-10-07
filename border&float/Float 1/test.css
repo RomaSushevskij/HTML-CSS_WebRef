@@ -1,0 +1,19 @@
+div {
+	color:white;
+	padding:10px;
+	font-size:2em;
+	padding:10px 20px;
+	margin-bottom:1em;
+}
+
+.ltr {
+	float:left;
+	background:#844AA5;
+	margin-right:10px;
+}
+
+.rtl {
+	float:right;
+	background:#55A54A;
+	margin-left:10px;
+}

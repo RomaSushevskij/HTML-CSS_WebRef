@@ -1,0 +1,15 @@
+div {
+	min-height:200px;
+	float:left;
+}
+
+.row1 {
+	width:30%;
+	background:#95BC80;
+	border-right:3px solid #CDB037;
+}
+
+.row2 {
+	width:70%;
+	background:#395629;
+}

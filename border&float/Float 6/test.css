@@ -1,0 +1,18 @@
+.arrow {
+	color:red;
+	font-size:2em;
+	background:#D4938C;
+}
+
+.prew {
+	float:left;
+	width:50%;
+	background:#DAE986;
+}
+
+.next {
+	float:right;
+	width:50%;
+	text-align:right;
+	background:#8CA7D4;
+}

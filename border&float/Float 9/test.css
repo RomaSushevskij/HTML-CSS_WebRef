@@ -1,0 +1,29 @@
+section {
+	background:#F5FAFA;
+	border:1px solid #BBD7D8;
+	border-radius:5px;
+	padding:30px;
+	text-align:right;
+	font-family:Arial, sans-serif;
+	line-height:1.5em;
+	color:#474747;
+	overflow:hidden;
+
+}
+
+img {
+	float:right;
+	border-radius:50%;
+	border:2px solid #B5B5B5;
+	margin-left:30px;
+	vertical-align:middle;
+}
+
+h2 {
+	font-weight:normal;.
+}
+
+p, h2 {
+	margin-right:180px;
+}
+

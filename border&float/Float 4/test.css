@@ -1,0 +1,36 @@
+ul {
+	float:right;
+	list-style:none;
+}
+
+li {
+	float:left;
+	margin-left:5px;
+}
+
+a {
+	display:block;
+	text-decoration:none;
+	color:#BB8B54;
+	font-size:1.2rem;
+	padding:10px;
+	width:20px;
+	height:20px;
+	background:#EDEDED;
+	text-align:center;
+	line-height:20px;
+	border:1px solid #DCDCDC;
+	vertical-align: middle;
+}
+
+div {
+	color:#8C8C8C;
+	padding-top:20px;
+}
+
+a:hover {
+	background:#965622;
+	border:1px solid #331C0A;
+	color:white;
+}
+
