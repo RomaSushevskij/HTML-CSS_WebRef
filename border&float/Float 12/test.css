@@ -1,0 +1,17 @@
+ul {
+	margin:0;
+	list-style:none;
+	background:#5794FF;
+	padding:0;
+	overflow:hidden;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display:block;
+	color:white;
+	padding:7px 15px;
+}

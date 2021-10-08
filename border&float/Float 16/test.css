@@ -1,0 +1,29 @@
+.sidebar, .content {
+	min-height:150px;
+	padding:10px;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+
+.sidebar {
+	width:250px;
+	background:#FDCFB9;
+	float:right;
+}
+
+.content {
+	margin-right:260px;
+	background:#B9C7FD;
+
+}
+
+.row {
+	overflow:hidden;
+}
+
+footer {
+	background:#C9FDB9;
+	padding:10px;
+	margin-top:10px;
+}

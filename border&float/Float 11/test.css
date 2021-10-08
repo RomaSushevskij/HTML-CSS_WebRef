@@ -1,0 +1,16 @@
+aside {
+	width:150px;
+	background:#EBEBEB;
+	border:1px solid #999999;
+	float:right;
+	padding:0 10px;
+	margin:5px 0 5px 10px;
+}
+
+aside p {
+	margin:0.6em 0;
+}
+
+aside img {
+	vertical-align:middle;
+}
