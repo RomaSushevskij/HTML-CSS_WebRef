@@ -1,0 +1,31 @@
+ul {
+	margin:0;
+	padding:10px;
+	list-style:none;
+	background:#F2F2F2;
+	font:normal 18px Arial, sans-serif;
+	overflow:hidden;
+	counter-reset:num; /*Инициируем счетчик*/
+}
+
+li {
+	float:left;
+	padding-right:25px;
+	
+
+}
+
+li::before {
+	counter-increment:num; /*Задаем идентификатор счетчика*/
+	content:counter(num); /*Выводим содержимое, которое будет отображаться перед каждым <li>.*/
+	margin-right:10px;
+	background:#DBDBDB;
+	padding:5px 10px;
+	border-radius:50%;
+
+}
+
+li.active::before  {
+	background:#9ACD32;
+	color:white;
+}

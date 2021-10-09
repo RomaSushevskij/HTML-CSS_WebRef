@@ -1,0 +1,29 @@
+.sidebar, .content, .nav {
+	min-height:150px;
+	padding:10px;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.sidebar {
+	width:200px;
+	background:#FDCFB9;
+	float:right;
+}
+
+.content {
+	margin-left:400px;
+	margin-right:200px;
+	background:#B9C7FD;
+}
+
+.nav {
+	width:400px;
+	background:#C9FDB9;
+	float:left;
+}
+
+.row {
+	overflow:hidden;
+}
+
