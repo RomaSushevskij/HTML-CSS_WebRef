@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1db6b3df-b8b2-4b71-97de-aa083fe89ebf" name="Default Changelist" comment="" />
+    <list default="true" id="1db6b3df-b8b2-4b71-97de-aa083fe89ebf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +24,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Study\IT\PLAN\1. HTML &amp; CSS\2.  WebRef\html&amp;css\border&amp;float" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -34,6 +41,7 @@
       <updated>1633623264081</updated>
       <workItem from="1633623269142" duration="506000" />
       <workItem from="1633705190463" duration="373000" />
+      <workItem from="1633797589002" duration="764000" />
     </task>
     <servers />
   </component>
