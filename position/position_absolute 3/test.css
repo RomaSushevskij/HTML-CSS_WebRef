@@ -1,0 +1,27 @@
+div.checkbox {
+	width:28px; 
+	height:28px; 
+	background:#333; /*Цвет рамки выключателя ЧЕРНЫЙ*/
+}
+
+.checkbox input[type=checkbox] {
+	position:absolute;
+	left:-9999px;   /*Скрываем элемент*/
+}
+
+div.checkbox label {
+	display:block; /*Делаем <label> блочным*/
+	width:20px;
+	height:20px;
+	position:relative; /*чтобы сдвинуть вправо и вниз в пределах <div> для получения рамки по 4px*/
+	left:4px;
+	top:4px;
+	background:white; /*,белый фон выключенного переключателя*/
+}
+
+
+.checkbox input[type=checkbox]:checked + label {
+	background:#009d4b; /* чтобы при нажатии на <label> имитировалось нажатие на спрятанный флажок и фон менялся на 						зеленый, когда флажок включен. Это происходит, потому что мы связали <label> и <input> через идентификатор id="c1" в HTML*/
+} 
+
+

@@ -1,0 +1,23 @@
+img {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+}
+
+img.first {
+	transform-origin:50% 100%; /*Точка, вокруг которой поворачиваются карты - нижний центр. Отсчет идет слева сверху*/
+	transform:rotateZ(-15deg);
+}
+
+img.second {
+	transform-origin:50% 100%;/*Точка, вокруг которой поворачиваются карты - нижний центр. Отсчет идет слева сверху*/
+	transform:rotateZ(15deg);
+}
+
+img:hover {
+	z-index:2; /*При наведении на нужную карту она отображается поверх всех остальных*/
+}
+}

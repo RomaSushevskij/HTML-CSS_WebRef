@@ -1,0 +1,41 @@
+body {
+	margin:0;
+}
+
+header {
+	height:60px;
+	background:#FFCC99;
+	border-bottom:1px solid black;
+	
+}
+
+h1 {
+	margin:0 10px;
+	line-height:60px;
+	
+}
+
+.sidebar {
+	background:#D6EBFF;
+	border-right:1px solid black;
+	width:150px;
+	position:absolute;
+	top:61px;
+	padding:0 10px;
+	overflow:auto;
+	bottom:0;
+
+}
+
+.content {
+	position:absolute;
+	left:171px;
+	top:61px;
+	padding:0 10px;
+	overflow:auto;
+	background:#F5FFF0;
+	bottom:0;
+}
+
+
+
