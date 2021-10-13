@@ -1,0 +1,10 @@
+img {
+	border:1px solid #CE2029;
+	transition:1s;
+	position:relative;
+}
+
+img:hover {
+	transform:scale(1.2);
+	z-index:10;
+}

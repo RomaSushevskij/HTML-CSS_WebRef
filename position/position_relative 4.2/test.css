@@ -1,0 +1,29 @@
+section {
+	background:#795548;
+	color:white;
+	font-family:Arial, sans-serif;
+	padding:20px;
+	padding-top:5px;
+}
+
+h2 {
+	margin:0;
+	font-weight:normal;
+	text-align:center;
+	color:#feea3b;
+	border-bottom:1px solid #feea3b;
+	margin-bottom:10px;
+}
+
+
+span {
+	background: #795548;
+	padding:0 10px;
+	position:relative;
+	top:13px;
+}
+
+p {
+	margin-top:30px;
+}
+

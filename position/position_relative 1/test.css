@@ -1,0 +1,17 @@
+body {
+	background:#D6D6D6;
+}
+
+h1 {
+	background:#1974D2;
+	color:white;
+	font-family:Arial, sans-serif;
+	font-weight:normal;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+span {
+	position:relative;
+	top:8px;
+}

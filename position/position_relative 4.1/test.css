@@ -1,0 +1,35 @@
+section {
+	background:#795548;
+	color:white;
+	font-family:Arial, sans-serif;
+	padding:20px;
+
+}
+
+h2 {
+	margin:0;
+	font-weight:normal;
+	text-align:center;
+	color:#feea3b;
+	overflow:hidden; /*чтобы линии отображались только в пределах <h2> и не заходили на padding <section>*/
+}
+
+h2::before, h2::after {
+	content:"";
+	background:#feea3b;
+	height:1px;
+	width:50%; /*линия занимает половину оставшейся ширины*/
+	display:inline-block; /*чтобы желтая линия появилась*/
+	vertical-align:middle;
+	position:relative;
+}
+
+h2::before {
+	margin-left:-50%; /*сдвигаем левую полосу влево на величину, равную ее ширине*/
+	right:10px; /*сдвигаем левую полосу влево на 10px от заголовка*/
+}
+
+h2::after {
+	margin-right:-50%;/*сдвигаем правую полосу вправо на величину, равную ее ширине*/
+	left:10px; /*сдвигаем правую полосу вправо на 10px от заголовка*/
+}
