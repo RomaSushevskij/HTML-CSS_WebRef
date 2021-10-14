@@ -1,0 +1,10 @@
+.red {
+	position:relative;
+	background:#A52019;
+	top:30px;
+	min-height:50px;
+}
+
+.red:hover {
+	position:static; /*отмена смещения вниз*/
+}

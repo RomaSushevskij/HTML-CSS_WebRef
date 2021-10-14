@@ -1,0 +1,47 @@
+body {
+	background:#F0F0F0;
+}
+
+form {
+	width:300px;
+	margin:auto;
+	background:white;
+	box-shadow:0 0 5px rgba(0, 0, 0, 0.3);
+	padding:30px 50px;
+	
+
+}
+
+
+input.data {
+	box-sizing:border-box;
+	width:100%;
+	border:1px solid #dddddd;;
+	padding:5px;
+}
+
+.remember {
+	text-align:right;.
+	
+}
+
+.remember span {
+	font-style: italic;
+}
+
+input.enter {
+	width:100%;
+	background:#B8976B;
+	padding:10px 5px;
+	color:white;
+	border:0;
+	cursor:pointer;
+}
+
+
+
+h2 {
+	text-align:center;
+	font-variant:small-caps;
+}
+
