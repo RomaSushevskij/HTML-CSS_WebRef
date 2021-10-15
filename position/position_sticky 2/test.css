@@ -1,0 +1,16 @@
+section {
+	max-height:200px;
+	max-width:400px;
+	background:#EDEDED;
+	border:1px solid black;
+	overflow:auto;
+}
+
+h1 {
+	margin:20px 0;
+	padding:10px;
+	background:#2E8B57;
+	color:white;
+	position:sticky;
+	top:0;
+}
