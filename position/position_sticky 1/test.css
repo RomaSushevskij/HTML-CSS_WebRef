@@ -1,0 +1,18 @@
+body {
+	min-height:1000px;
+}
+
+header, nav {
+	color:white;
+	padding:10px;
+}
+
+header {
+	background:#287233;
+}
+
+nav {
+	background:#3A75C4;
+	position:sticky;
+	top:0;
+}
