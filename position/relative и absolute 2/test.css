@@ -1,0 +1,19 @@
+figure {
+	position:absolute;
+}
+
+.pub {
+	position:absolute;
+	background:#4169E1;
+	color:white;
+	min-width:50px;
+	border:2px solid white;
+	left:20px;
+	top:20px;
+	padding:5px 5px;
+	text-align:center;
+}
+
+.data {
+	font-size:28px;
+}
