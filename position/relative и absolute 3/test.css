@@ -1,0 +1,27 @@
+[data-tooltip] {
+	position:relative; /*относительное позиционирование самой подсказки*/
+}
+
+[data-tooltip]:hover::after {    /*при наведении на текст с атрибутом data-tooltip после него появляется текст атрибута подсказки*/
+	content:attr(data-tooltip); /**/
+	background:#3989c9;
+	color:white;
+	position:absolute; /*абсолютное позиционирование подсказки при наведении на текст после нее справа*/
+	left:0;
+	top:2em;
+	padding:10px;
+	border-radius:5px;
+	width:400px;
+}
+
+[data-tooltip]:hover::before {    /*при наведении на текст с атрибутом data-tooltip перед ним появится то, что мы далее введем в значении свойства content:''*/
+	content:'';
+	width:0;
+	height:0;
+	border-right:10px solid transparent;   /*делаем границу 10px прозрачной справа*/
+	border-left:10px solid transparent;    /*делаем границу 10px прозрачной слева*/
+	border-bottom:10px solid #3989c9;   /*оставляем нижнюю границу синей - появляется треугольник (эффект рамки)*/
+	position:absolute;   /*абсолютное позиционирование подсказки при наведении на текст перед ней слева*/  /**/
+	top:1.4em;     
+	left:20px;
+}
