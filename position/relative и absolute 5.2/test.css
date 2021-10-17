@@ -1,0 +1,21 @@
+figure {
+	display:inline-block;
+	position:relative;
+}
+
+img {
+	display:block;
+	
+}
+
+.block2 {
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	width:30px;
+	height:30px;
+	padding:5px;
+	border:1px solid black;
+	background:url(expand.png) rgba(255,255,255, 0.5) center no-repeat;
+	background-size:30px;
+}
