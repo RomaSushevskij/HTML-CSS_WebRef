@@ -1,0 +1,46 @@
+body {
+	background:#F2F2F2;
+}
+
+section {
+	position:relative;
+}
+
+
+.block1, .block2 {
+	position:absolute;
+	padding:10px;
+	overflow:hidden;
+}
+
+img {
+	background:#E3E3E3;
+	border:3px solid #CAB68C;
+	padding:4px;
+}
+
+.block2 {
+	left:300px;
+}
+
+.border_top, .border_bottom {
+	width:100px;
+	height:100px;
+	background:#F2F2F2;
+	outline:1px dashed #8C8C8C;
+	outline-offset:-3px;
+	position:absolute;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+	transform-origin:50% 50%;
+	transform:rotate(45deg);
+}
+
+.border_top {
+	bottom:-60px;
+	left:-70px;
+}
+
+.border_bottom {
+	right:-60px;
+	top:-70px;
+}
