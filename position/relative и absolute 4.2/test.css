@@ -1,0 +1,42 @@
+body {
+	background:#F2F2F2;
+}
+
+
+.block1, .block2 {
+	position:relative;
+	padding:10px;
+	overflow:hidden;
+	display:inline-block;
+}
+
+img {
+	background:#E3E3E3;
+	border:3px solid #CAB68C;
+	padding:4px;
+}
+
+
+
+figure::before, figure::after {
+	content:'';
+	width:100px;
+	height:100px;
+	background:#F2F2F2;
+	outline:1px dashed #8C8C8C;
+	outline-offset:-3px;
+	position:absolute;
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+	transform-origin:50% 50%;
+	transform:rotate(45deg);
+}
+
+figure::before {
+	bottom:-60px;
+	left:-70px;
+}
+
+figure::after {
+	right:-60px;
+	top:-70px;
+}
