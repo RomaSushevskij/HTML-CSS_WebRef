@@ -1,0 +1,43 @@
+section {
+	background:#E9F38C;
+	width:600px;
+}
+
+div {
+	left:0;
+	width:20px;
+	height:20px;
+	margin-top:50px;
+	position:relative;
+	transition:2s;
+}
+
+section:hover div {
+	left:580px;
+}
+
+
+.ease {
+	background: #F80000;
+	transition-timing-function:ease;
+}
+
+.linear {
+	background: #0BDA51;
+	transition-timing-function:linear;
+}
+
+.ease-in {
+	background: #007DFF;
+	transition-timing-function:ease-in;
+}
+
+.ease-out {
+	background:#FF00CC;
+	transition-timing-function:ease-out;
+}
+
+.ease-in-out {
+	background: #E28B00;
+	transition-timing-function:ease-in-out;
+}
