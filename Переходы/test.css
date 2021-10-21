@@ -1,0 +1,25 @@
+div {
+	width:600px;
+	background:#EAE6CA;
+	padding:40px;
+}
+
+p {
+	color:#A5A5A5;
+}
+
+a {
+	background: #4169E1;
+	color:white;
+	padding:10px;
+	text-decoration: none;
+}
+
+div:hover a {
+	background:#EB4C42;
+	transition: all 1s;
+}
+
+div:hover a.with {
+	transition-delay:1s;
+}
