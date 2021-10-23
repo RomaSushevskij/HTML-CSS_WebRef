@@ -1,0 +1,23 @@
+section {
+	display:inline-block;
+	padding:20px;
+	min-height:200px;
+	box-sizing:border-box;
+	text-align:center;
+	vertical-align:top;
+}
+
+.row1 {
+	background:#CCDDFF;
+	width:20%;
+}
+
+.row2 {
+	background:#FFE7CC;
+	width:30%;
+}
+
+.row3 {
+	background:#ECFFCC;
+	width:50%;
+}
