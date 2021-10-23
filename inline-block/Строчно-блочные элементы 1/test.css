@@ -1,0 +1,32 @@
+figure {
+	display:inline-block;
+	border-right:2px solid #B07840;
+	padding-right:10px;
+	margin:0;
+}
+
+figcaption {
+	text-align:right;
+}
+
+div {
+	background:#F5F5F5;
+	padding:20px;	
+	box-sizing:border-box;
+	width:500px;
+}
+
+
+
+h2 {
+	display:inline-block;
+	vertical-align:top;
+	font-weight:normal;
+	margin:0;
+	width:138px;
+	margin-left:10px;
+}
+
+img {
+
+}
