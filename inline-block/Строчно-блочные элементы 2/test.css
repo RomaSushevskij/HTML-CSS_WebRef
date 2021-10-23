@@ -1,0 +1,22 @@
+section {
+	width:400px;
+	margin:auto;
+	border-bottom:5px solid #A86540;
+	font-size:0;
+}
+
+div {
+	width:50%;
+	display:inline-block;
+	font-size:16px;
+	vertical-align:middle;
+	padding-left:30px;
+}
+
+img {
+	padding-left:10px;
+	vertical-align:middle;
+}
+
+
+
