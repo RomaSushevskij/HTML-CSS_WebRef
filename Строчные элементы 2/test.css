@@ -1,0 +1,29 @@
+body {
+	background:#F5F5F5;
+	font-family:Arial, sans-serif;
+}
+
+header {
+	background:#D4D4D4;
+	padding:10px;
+	padding-left:0;
+}
+
+span {
+	background:#D63D47;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:10px;
+}
+
+nav {
+	background:white;
+	padding:10px 0;
+}
+
+a {
+	color:#212121;
+	text-decoration:underline;
+	padding-left:10px;
+}
