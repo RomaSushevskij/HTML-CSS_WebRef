@@ -1,0 +1,27 @@
+@keyframes size {
+	0% {transform: scale(1);}
+	20% {transform: scale(3);}
+	40% {transform: scale(2);}
+	60% {transform: scale(-2);}
+	100% {transform: scale(0);}
+}
+
+div {
+	width:100px;
+	height:100px;
+	border:1px solid black;
+	border-radius: 50px;
+	background-image: radial-gradient(#000000 2%,#000000 3%, #CB2821 3%,  #CB2821 25%, #131313 20%);
+	text-align:center;
+	animation:size 10s linear 0s infinite;	
+	margin:100px;
+}
+
+span {
+
+	font:small-caps 20px/1.5 Arial, sans-serif;
+	color:white;
+	
+
+}
+
