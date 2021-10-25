@@ -1,0 +1,25 @@
+a {
+	font-size: 30px;
+	background-color: lightgrey;
+	color:grey;
+	margin:10px;
+	padding:5px 15px 5px 15px;
+	text-decoration: underline;
+	cursor:pointer;
+
+}
+
+a:hover {
+	background-color: yellow;
+	color:green;
+	border:5px solid blue;
+}
+
+a.with-transition-background {
+	transition-duration: 2s;
+	transition-property: background;
+}
+
+a.with-transition-all {
+	transition-duration: 2s;
+}
