@@ -1,0 +1,30 @@
+@keyframes jump {
+	0% {
+		bottom:0px; 
+		box-shadow:0 0 5px rgba(0,0,0,0.5) ;
+	}
+	100% {
+		bottom:40px; 
+		box-shadow:0 50px 50px rgba(0,0,0,0.1)
+	}
+}
+
+p {
+	animation: jump 0.5s cubic-bezier(.1,.25,.1,1) 0s infinite alternate both;
+	position:relative;
+	left:500px;
+	margin-top:100px;
+	font-size:30px;
+	color:white;
+	background:green;
+	width:200px;
+	height:50px;
+	border-radius:5px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:center;
+	padding-top:15px;
+	cursor:pointer;
+	
+}
+
