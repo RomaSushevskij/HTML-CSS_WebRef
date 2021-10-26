@@ -1,0 +1,25 @@
+div {
+	width:400px;
+	height:70px;
+	background-color: #E6E6E6;
+}
+
+div p {
+	color:grey;
+}
+
+a {
+	background-color: blue;
+	margin:10px;
+	padding:10px 5px;
+	color:white;
+	transition-duration: 2s;
+}
+
+div:hover a {
+	background-color: red;
+	}
+
+.with-delay {
+	transition-delay:2s;
+}	
