@@ -1,0 +1,36 @@
+div {
+	left:0px;
+	width:30px;
+	height: 30px;
+	position:relative;
+	transition:2s;
+}
+
+.ease {
+	background:grey;
+	transition-timing-function:ease;
+}
+
+.linear {
+	background:green;
+	transition-timing-function:linear;
+}
+
+.ease-in {
+	background:orange;
+	transition-timing-function:ease-in;
+}
+
+.ease-out {
+	background:red;
+	transition-timing-function:ease-out;
+}
+
+.ease-in-out {
+	background:blue;
+	transition-timing-function:ease-in-out;
+}
+
+main:hover div {
+	left:400px;
+}
