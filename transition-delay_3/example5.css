@@ -1,0 +1,36 @@
+@keyframes around{
+	0% {left:0px; top:0px;
+		box-shadow: -20px 20px 50px rgba(0,0,0,0.5);
+	}
+	25% {
+		left:500px; top:0px;
+		box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+	}
+	50% {
+		left:500px; top:500px;
+		box-shadow: 20px -20px 50px rgba(0,0,0,0.5);
+	}
+	75% {
+		left:0px; top:500px;
+		box-shadow: -20px -20px 50px rgba(0,0,0,0.5);
+	}
+	100% {
+		left:0px; top:0px;
+		box-shadow: -20px 20px 50px rgba(0,0,0,0.5);
+	}
+}
+
+p {
+	animation:around 5s linear infinite;
+	position:relative;
+	font-size:40px;
+	font-family:sans-serif;
+	color:red;
+	background-color:lightgrey;
+	width:120px;
+	font-weight:bold;
+	padding:20px;
+	margin:20px;
+	border-radius:10px;
+	border:grey 2px solid;
+}
